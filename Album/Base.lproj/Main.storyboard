@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,146 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Album" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ocean.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="T8c-k7-Ef6">
+                                <rect key="frame" x="13" y="81" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Xt9-mf-QW8" appends="YES" id="0MJ-M4-Ses"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="portugal.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JCM-rG-PoR">
+                                <rect key="frame" x="211" y="81" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="DA1-Aq-WlF" appends="YES" id="uyy-rv-dIJ"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sakura.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SEN-HG-AHQ">
+                                <rect key="frame" x="13" y="293" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="qZN-VD-pPS" appends="YES" id="uaT-eO-uLO"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ship.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="X3r-FJ-wvJ">
+                                <rect key="frame" x="211" y="293" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="OAO-eJ-2NP" appends="YES" id="vRP-1V-10a"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="waterfall.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Jn7-oL-l3x">
+                                <rect key="frame" x="13" y="513" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="cIp-bP-owo" appends="YES" id="h7m-gD-74m"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yukata.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aoz-6W-iG3">
+                                <rect key="frame" x="211" y="513" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="OUD-Yq-pc2" appends="YES" id="JoD-Zw-OwO"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="RtD-ro-8ZC" kind="presentation" identifier="toshowImageViewController" id="Jvq-EA-K3g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Xt9-mf-QW8">
+                    <connections>
+                        <action selector="tapImage1:" destination="BYZ-38-t0r" id="toZ-hW-50i"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="DA1-Aq-WlF">
+                    <connections>
+                        <action selector="tapImage2:" destination="BYZ-38-t0r" id="iqI-4U-7dB"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="qZN-VD-pPS">
+                    <connections>
+                        <action selector="tapImage3:" destination="BYZ-38-t0r" id="Mbd-we-UKb"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="OAO-eJ-2NP">
+                    <connections>
+                        <action selector="tapImage4:" destination="BYZ-38-t0r" id="M6f-sw-zoR"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="cIp-bP-owo">
+                    <connections>
+                        <action selector="tapImage5:" destination="BYZ-38-t0r" id="7ov-Wz-CGG"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="OUD-Yq-pc2">
+                    <connections>
+                        <action selector="tapImage6:" destination="BYZ-38-t0r" id="0Mn-Gh-kZx"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="-38" y="102"/>
+        </scene>
+        <!--Show Image View Controller-->
+        <scene sceneID="dyn-hH-thy">
+            <objects>
+                <viewController id="RtD-ro-8ZC" customClass="showImageViewController" customModule="Album" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Uns-ZG-gfx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A0d-yg-ugz">
+                                <rect key="frame" x="0.0" y="100" width="414" height="266"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVl-iM-eJ6">
+                                <rect key="frame" x="90" y="495" width="198" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.22309952974319458" green="0.4669651985168457" blue="0.66231328248977661" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="tintColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="もどる">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="back" destination="RtD-ro-8ZC" eventType="touchUpInside" id="WKZ-WB-5cM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.32318562269210815" blue="0.58480548858642578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="tbq-Se-tlY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="A0d-yg-ugz" id="qoP-t6-yFl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H5B-88-4si" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="711.59420289855075" y="85.714285714285708"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ocean.jpg" width="1600" height="1066"/>
+        <image name="portugal.jpg" width="1600" height="1066"/>
+        <image name="sakura.jpg" width="288" height="191.8800048828125"/>
+        <image name="ship.jpg" width="1600" height="1066"/>
+        <image name="waterfall.jpg" width="1600" height="1066"/>
+        <image name="yukata.jpg" width="288" height="191.8800048828125"/>
+    </resources>
 </document>

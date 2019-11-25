@@ -15,6 +15,13 @@
 		A132BE9323883C7F000849C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A132BE9123883C7F000849C6 /* LaunchScreen.storyboard */; };
 		A132BE9E23883C80000849C6 /* AlbumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A132BE9D23883C80000849C6 /* AlbumTests.swift */; };
 		A132BEA923883C80000849C6 /* AlbumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A132BEA823883C80000849C6 /* AlbumUITests.swift */; };
+		A132BEBD23883CF1000849C6 /* yukata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A132BEB723883CF1000849C6 /* yukata.jpg */; };
+		A132BEBE23883CF1000849C6 /* ship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A132BEB823883CF1000849C6 /* ship.jpg */; };
+		A132BEBF23883CF1000849C6 /* waterfall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A132BEB923883CF1000849C6 /* waterfall.jpg */; };
+		A132BEC023883CF1000849C6 /* portugal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A132BEBA23883CF1000849C6 /* portugal.jpg */; };
+		A132BEC123883CF1000849C6 /* sakura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A132BEBB23883CF1000849C6 /* sakura.jpg */; };
+		A132BEC223883CF1000849C6 /* ocean.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A132BEBC23883CF1000849C6 /* ocean.jpg */; };
+		A132BEC4238841F4000849C6 /* showImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A132BEC3238841F4000849C6 /* showImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		A132BEA423883C80000849C6 /* AlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A132BEA823883C80000849C6 /* AlbumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumUITests.swift; sourceTree = "<group>"; };
 		A132BEAA23883C80000849C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A132BEB723883CF1000849C6 /* yukata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yukata.jpg; sourceTree = "<group>"; };
+		A132BEB823883CF1000849C6 /* ship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ship.jpg; sourceTree = "<group>"; };
+		A132BEB923883CF1000849C6 /* waterfall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterfall.jpg; sourceTree = "<group>"; };
+		A132BEBA23883CF1000849C6 /* portugal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portugal.jpg; sourceTree = "<group>"; };
+		A132BEBB23883CF1000849C6 /* sakura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sakura.jpg; sourceTree = "<group>"; };
+		A132BEBC23883CF1000849C6 /* ocean.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ocean.jpg; sourceTree = "<group>"; };
+		A132BEC3238841F4000849C6 /* showImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +116,12 @@
 				A132BE8623883C7D000849C6 /* AppDelegate.swift */,
 				A132BE8823883C7D000849C6 /* SceneDelegate.swift */,
 				A132BE8A23883C7D000849C6 /* ViewController.swift */,
+				A132BEC3238841F4000849C6 /* showImageViewController.swift */,
 				A132BE8C23883C7D000849C6 /* Main.storyboard */,
 				A132BE8F23883C7F000849C6 /* Assets.xcassets */,
 				A132BE9123883C7F000849C6 /* LaunchScreen.storyboard */,
 				A132BE9423883C80000849C6 /* Info.plist */,
+				A132BEB623883CF1000849C6 /* album */,
 			);
 			path = Album;
 			sourceTree = "<group>";
@@ -126,6 +142,19 @@
 				A132BEAA23883C80000849C6 /* Info.plist */,
 			);
 			path = AlbumUITests;
+			sourceTree = "<group>";
+		};
+		A132BEB623883CF1000849C6 /* album */ = {
+			isa = PBXGroup;
+			children = (
+				A132BEB723883CF1000849C6 /* yukata.jpg */,
+				A132BEB823883CF1000849C6 /* ship.jpg */,
+				A132BEB923883CF1000849C6 /* waterfall.jpg */,
+				A132BEBA23883CF1000849C6 /* portugal.jpg */,
+				A132BEBB23883CF1000849C6 /* sakura.jpg */,
+				A132BEBC23883CF1000849C6 /* ocean.jpg */,
+			);
+			path = album;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +261,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A132BEC123883CF1000849C6 /* sakura.jpg in Resources */,
+				A132BEBD23883CF1000849C6 /* yukata.jpg in Resources */,
+				A132BEBE23883CF1000849C6 /* ship.jpg in Resources */,
+				A132BEC023883CF1000849C6 /* portugal.jpg in Resources */,
+				A132BEBF23883CF1000849C6 /* waterfall.jpg in Resources */,
 				A132BE9323883C7F000849C6 /* LaunchScreen.storyboard in Resources */,
 				A132BE9023883C7F000849C6 /* Assets.xcassets in Resources */,
+				A132BEC223883CF1000849C6 /* ocean.jpg in Resources */,
 				A132BE8E23883C7D000849C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +297,7 @@
 				A132BE8B23883C7D000849C6 /* ViewController.swift in Sources */,
 				A132BE8723883C7D000849C6 /* AppDelegate.swift in Sources */,
 				A132BE8923883C7D000849C6 /* SceneDelegate.swift in Sources */,
+				A132BEC4238841F4000849C6 /* showImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
